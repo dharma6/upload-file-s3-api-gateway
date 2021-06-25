@@ -4,7 +4,6 @@ import boto3
 #import mimetypes
 #import magic
 import uuid
-import requests
 import config as cf
 from services.s3Service import S3Service
 from services.apiService import ApiService
