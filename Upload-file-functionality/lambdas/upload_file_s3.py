@@ -10,7 +10,7 @@ from services.apiService import ApiService
 
 
 
-def upload_file_S3(event, context):
+def upload_file_S3_handler(event, context):
 	""" This method revolves around uploading a file to S3.
 
     Parameters
